@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoxima University - Empowering Future Leaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">Z</div>
+            <div class="logo-text">
+                <span class="logo-main">ZOXIMA</span>
+                <span class="logo-sub">UNIVERSITY</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#campus">Campus Life</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="apply-btn">Apply Now</button>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-video-bg">
+            <div class="video-placeholder"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-accent">Empowering</span> Future Leaders
+            </h1>
+            <p class="hero-subtitle">
+                Where Innovation Meets Excellence - Join 50,000+ Students Building Tomorrow
+            </p>
+            <div class="hero-cta">
+                <button class="btn-primary">Explore Programs</button>
+                <button class="btn-secondary">Virtual Tour</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Placement Rate</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Programs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">80+</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="quick-link-card" onclick="scrollToSection('admissions')">
+            <div class="quick-icon">📚</div>
+            <h3>Admissions</h3>
+            <p>Start Your Journey</p>
+        </div>
+        <div class="quick-link-card" onclick="scrollToSection('programs')">
+            <div class="quick-icon">🎓</div>
+            <h3>Academic Programs</h3>
+            <p>Explore Courses</p>
+        </div>
+        <div class="quick-link-card" onclick="scrollToSection('campus')">
+            <div class="quick-icon">🏛️</div>
+            <h3>Campus Life</h3>
+            <p>Experience Culture</p>
+        </div>
+        <div class="quick-link-card" onclick="scrollToSection('research')">
+            <div class="quick-icon">🔬</div>
+            <h3>Research</h3>
+            <p>Innovation Hub</p>
+        </div>
+    </section>
+
+    <!-- Featured Programs Section -->
+    <section class="programs-section" id="programs">
+        <div class="section-header">
+            <h2>Featured Programs</h2>
+            <p>Discover world-class education across diverse disciplines</p>
+        </div>
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-image engineering"></div>
+                <div class="program-content">
+                    <span class="program-badge">Popular</span>
+                    <h3>Engineering & Technology</h3>
+                    <p>Computer Science, AI, Robotics, Electrical Engineering</p>
+                    <div class="program-meta">
+                        <span>⏱️ 4 Years</span>
+                        <span>📍 On Campus</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-image business"></div>
+                <div class="program-content">
+                    <span class="program-badge trending">Trending</span>
+                    <h3>Business & Management</h3>
+                    <p>MBA, Finance, Marketing, Entrepreneurship</p>
+                    <div class="program-meta">
+                        <span>⏱️ 2 Years</span>
+                        <span>💼 Hybrid</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-image medical"></div>
+                <div class="program-content">
+                    <span class="program-badge new">New</span>
+                    <h3>Health Sciences</h3>
+                    <p>Medicine, Nursing, Public Health, Biotechnology</p>
+                    <div class="program-meta">
+                        <span>⏱️ 5 Years</span>
+                        <span>🏥 Clinical</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-image arts"></div>
+                <div class="program-content">
+                    <h3>Arts & Humanities</h3>
+                    <p>Literature, Psychology, Design, Media Studies</p>
+                    <div class="program-meta">
+                        <span>⏱️ 3 Years</span>
+                        <span>🎨 Creative</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-image law"></div>
+                <div class="program-content">
+                    <h3>Law & Legal Studies</h3>
+                    <p>Constitutional Law, Corporate Law, Human Rights</p>
+                    <div class="program-meta">
+                        <span>⏱️ 3 Years</span>
+                        <span>⚖️ Practice</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+            <div class="program-card">
+                <div class="program-image science"></div>
+                <div class="program-content">
+                    <h3>Pure Sciences</h3>
+                    <p>Physics, Chemistry, Mathematics, Environmental Science</p>
+                    <div class="program-meta">
+                        <span>⏱️ 4 Years</span>
+                        <span>🔬 Research</span>
+                    </div>
+                    <button class="program-btn">Learn More →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Zoxima Section -->
+    <section class="why-section" id="about">
+        <div class="why-container">
+            <div class="why-content">
+                <h2>Why Choose Zoxima University?</h2>
+                <p class="why-intro">For over 150 years, Zoxima University has been at the forefront of academic excellence, research innovation, and social impact.</p>
+                <div class="why-features">
+                    <div class="why-feature">
+                        <div class="why-icon">🌟</div>
+                        <div>
+                            <h4>World-Class Faculty</h4>
+                            <p>Learn from Nobel laureates, industry leaders, and renowned researchers</p>
+                        </div>
+                    </div>
+                    <div class="why-feature">
+                        <div class="why-icon">🌍</div>
+                        <div>
+                            <h4>Global Network</h4>
+                            <p>Access to 500+ partner universities and international exchange programs</p>
+                        </div>
+                    </div>
+                    <div class="why-feature">
+                        <div class="why-icon">💼</div>
+                        <div>
+                            <h4>Career Support</h4>
+                            <p>Dedicated placement cell with connections to top Fortune 500 companies</p>
+                        </div>
+                    </div>
+                    <div class="why-feature">
+                        <div class="why-icon">🏆</div>
+                        <div>
+                            <h4>Rankings & Recognition</h4>
+                            <p>Top 50 globally ranked university with multiple accreditations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="why-image">
+                <div class="image-placeholder campus-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section class="admissions-section" id="admissions">
+        <div class="section-header">
+            <h2>Admissions 2025-26</h2>
+            <p>Your journey to excellence starts here</p>
+        </div>
+        <div class="admissions-timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">1</div>
+                <div class="timeline-content">
+                    <h4>Create Account</h4>
+                    <p>Register on our admission portal</p>
+                    <span class="timeline-date">Open Now</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">2</div>
+                <div class="timeline-content">
+                    <h4>Submit Application</h4>
+                    <p>Fill form and upload documents</p>
+                    <span class="timeline-date">Deadline: March 31</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">3</div>
+                <div class="timeline-content">
+                    <h4>Entrance Exam</h4>
+                    <p>Take online or offline test</p>
+                    <span class="timeline-date">April 15-30</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">4</div>
+                <div class="timeline-content">
+                    <h4>Interview</h4>
+                    <p>Personal interaction with faculty</p>
+                    <span class="timeline-date">May 1-15</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">5</div>
+                <div class="timeline-content">
+                    <h4>Admission Offer</h4>
+                    <p>Receive acceptance letter</p>
+                    <span class="timeline-date">June 1</span>
+                </div>
+            </div>
+        </div>
+        <div class="admissions-cta">
+            <button class="btn-primary-large">Start Application</button>
+            <button class="btn-outline">Download Prospectus</button>
+        </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section class="campus-section" id="campus">
+        <div class="section-header">
+            <h2>Campus Life</h2>
+            <p>Experience a vibrant community of learners, creators, and innovators</p>
+        </div>
+        <div class="campus-grid">
+            <div class="campus-card large">
+                <div class="campus-image library"></div>
+                <div class="campus-overlay">
+                    <h3>State-of-the-Art Facilities</h3>
+                    <p>Modern libraries, labs, sports complexes, and more</p>
+                </div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-image clubs"></div>
+                <div class="campus-overlay">
+                    <h3>100+ Student Clubs</h3>
+                    <p>From robotics to theatre</p>
+                </div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-image events"></div>
+                <div class="campus-overlay">
+                    <h3>Cultural Events</h3>
+                    <p>Annual fests and celebrations</p>
+                </div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-image sports"></div>
+                <div class="campus-overlay">
+                    <h3>Sports Excellence</h3>
+                    <p>Olympic-size facilities</p>
+                </div>
+            </div>
+            <div class="campus-card">
+                <div class="campus-image hostel"></div>
+                <div class="campus-overlay">
+                    <h3>Modern Hostels</h3>
+                    <p>Comfortable living spaces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research-section" id="research">
+        <div class="research-container">
+            <div class="research-content">
+                <span class="section-tag">Innovation Hub</span>
+                <h2>Research That Matters</h2>
+                <p>Our researchers are solving real-world problems through groundbreaking discoveries in AI, climate science, healthcare, and sustainable technology.</p>
+                <div class="research-stats">
+                    <div class="research-stat">
+                        <h3>₹2000Cr+</h3>
+                        <p>Research Funding</p>
+                    </div>
+                    <div class="research-stat">
+                        <h3>5000+</h3>
+                        <p>Publications</p>
+                    </div>
+                    <div class="research-stat">
+                        <h3>150+</h3>
+                        <p>Patents Filed</p>
+                    </div>
+                </div>
+                <button class="btn-outline">Explore Research</button>
+            </div>
+            <div class="research-image">
+                <div class="image-placeholder research-lab"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2>Student Voices</h2>
+            <p>Hear from our community</p>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial-card active">
+                <div class="testimonial-image student1"></div>
+                <p class="testimonial-text">"Zoxima University transformed my life. The faculty's mentorship and world-class facilities helped me land my dream job at Google."</p>
+                <h4>Priya Sharma</h4>
+                <span>Computer Science, Class of 2024</span>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image student2"></div>
+                <p class="testimonial-text">"The research opportunities here are unparalleled. I published 3 papers during my undergraduate program!"</p>
+                <h4>Rahul Mehra</h4>
+                <span>Biotechnology, Class of 2023</span>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image student3"></div>
+                <p class="testimonial-text">"Campus life at Zoxima is amazing. The clubs, events, and diverse community made these the best years of my life."</p>
+                <h4>Sarah Johnson</h4>
+                <span>International Student, Class of 2024</span>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Have questions? Our admissions team is here to help you every step of the way.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>Zoxima University Campus<br>Education City, New Delhi - 110001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 11 4567 8900<br>Toll Free: 1800-123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>admissions@zoxima.edu<br>info@zoxima.edu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <h3>Send Us a Message</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name *" required>
+                        <input type="email" placeholder="Your Email *" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Phone Number *" required>
+                        <select required>
+                            <option value="">Interested In *</option>
+                            <option>Undergraduate Programs</option>
+                            <option>Postgraduate Programs</option>
+                            <option>PhD Programs</option>
+                            <option>International Admissions</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Your Message *" rows="4" required></textarea>
+                    <button type="submit" class="btn-primary-large">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="logo-icon">Z</div>
+                    <span>ZOXIMA UNIVERSITY</span>
+                </div>
+                <p>Empowering minds, transforming futures since 1875.</p>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                    <a href="#">💼</a>
+                    <a href="#">▶️</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#programs">Academic Programs</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#research">Research</a>
+                <a href="#campus">Campus Life</a>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="#">Student Portal</a>
+                <a href="#">Faculty Directory</a>
+                <a href="#">Library</a>
+                <a href="#">Career Services</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <a href="#">Alumni Network</a>
+                <a href="#">News & Events</a>
+                <a href="#">Donate</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Zoxima University. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <!-- Apply Now Floating Button -->
+    <button class="floating-apply-btn">
+        🎓 Apply Now
+    </button>
+
+    <!-- LEFT CHATBOT WIDGET -->
+    <div class="chatbot-widget-left">
+        <button class="chat-toggle-btn-left" id="chatToggleBtnLeft">
+            <svg class="chat-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2 22l5.71-.97C9 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.38 0-2.68-.31-3.86-.85l-.28-.14-2.9.49.49-2.9-.14-.28C4.31 14.68 4 13.38 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/>
+            </svg>
+            <span class="close-icon">×</span>
+        </button>
+
+        <div class="chat-window-left" id="chatWindowLeft">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <h3>Zoxima Support</h3>
+                    <span class="chat-status">● Online</span>
+                </div>
+                <button class="minimize-btn" id="minimizeBtnLeft">−</button>
+            </div>
+            
+            <div class="chat-messages" id="chatMessagesLeft">
+                <div class="message bot">
+                    <div class="message-avatar">🎓</div>
+                    <div class="message-content">
+                        <p>Hello! Welcome to Zoxima University. 👋</p>
+                        <p>How can I assist you today with admissions, programs, or campus information?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="typing-indicator" id="typingIndicatorLeft">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+
+            <div class="chat-input-container">
+                <input 
+                    type="text" 
+                    class="chat-input" 
+                    id="chatInputLeft" 
+                    placeholder="Type your message..." 
+                    autocomplete="off"
+                >
+                <button class="send-button" id="sendButtonLeft">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
