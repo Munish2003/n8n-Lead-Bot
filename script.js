@@ -207,7 +207,7 @@ async function typewriterEffect(element, text, speed = 20) {
 // ============================
 
 // const N8N_WEBHOOK_URL_LEFT = 'https://munishkumar.app.n8n.cloud/webhook/a117424e-1eb5-46cf-bfe3-fabd6bd03c79/chat';
-const N8N_WEBHOOK_URL_LEFT = 'https://munishkumarr.app.n8n.cloud/webhook/310f8cbf-b6e0-4933-acec-2fd0ada3b3cd/chat';
+const N8N_WEBHOOK_URL_LEFT = 'https://zoximan8n.app.n8n.cloud/webhook/6125090e-1bff-4b61-ba78-2e04e96ca1e5/chat';
 
 const chatToggleBtnLeft = document.getElementById('chatToggleBtnLeft');
 const chatWindowLeft = document.getElementById('chatWindowLeft');
@@ -597,3 +597,4 @@ document.addEventListener('keydown', (e) => {
 });
 
 console.log('✅ Zoxima University Website Loaded Successfully!');
+
